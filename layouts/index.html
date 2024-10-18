@@ -1,6 +1,16 @@
 {{ define "main" }}
+
   <!-- Hero Section -->
   {{ partial "hero.html" . }}
+
+  <!-- Content from _index.md -->
+<section class="py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 prose dark:prose-dark">
+        {{ .Content }}
+    </div>
+    </section>
+
+
 
   <!-- Features Section -->
   <section class="bg-gray-100 dark:bg-gray-900 py-12">
