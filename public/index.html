@@ -3,36 +3,49 @@
 <head>
 	<meta name="generator" content="Hugo 0.134.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EchoSlate</title>
-  
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
-<body>
-  <nav>
-    <ul>
-      
-        <li><a href="/">Home</a></li>
-      
-        <li><a href="/users/">Users</a></li>
-      
-        <li><a href="/edit/">Edit</a></li>
-      
-        <li><a href="/upload/">Upload</a></li>
-      
-        <li><a href="/search/">Search</a></li>
-      
-        <li><a href="/about/">About</a></li>
-      
-        <li><a href="/contact/">Contact</a></li>
-      
-    </ul>
-  </nav>
+<body class="bg-gray-100 dark:bg-gray-800 dark:text-white">
+  <header class="bg-gray-800 text-white p-4 fixed w-full z-10">
+    <nav class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="text-2xl font-bold">
+        <a href="/" class="hover:text-gray-400">EchoSlate</a>
+      </div>
+      <ul class="flex space-x-4">
+        
+        <li><a href="/en/" class="hover:text-gray-400">Home</a></li>
+        
+        <li><a href="/en/users/" class="hover:text-gray-400">Users</a></li>
+        
+        <li><a href="/en/edit/" class="hover:text-gray-400">Edit</a></li>
+        
+        <li><a href="/en/upload/" class="hover:text-gray-400">Upload</a></li>
+        
+        <li><a href="/en/search/" class="hover:text-gray-400">Search</a></li>
+        
+        <li><a href="/en/about/" class="hover:text-gray-400">About</a></li>
+        
+        <li><a href="/en/contact/" class="hover:text-gray-400">Contact</a></li>
+        
+      </ul>
+    </nav>
+  </header>
   
+
+  <main class="py-16">
+    
   
-  <section class="hero">
-    <h1>Welcome to EchoSlate</h1>
-    
-    
-    <div class="hero-content">
+  <div class="hero-content">
+    <section class="h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600 text-white">
+        <div class="text-center">
+          <h1 class="text-6xl font-extrabold mb-6">Welcome to EchoSlate</h1>
+          <p class="text-xl mb-8">Your digital portfolio to showcase resumes and projects.</p>
+          <a href="/users/" class="bg-white text-blue-600 px-6 py-3 rounded-full hover:bg-blue-200 transition duration-300">Explore Users</a>
+        </div>
+      </section>
+      
     
     <form id="login-form">
       <h2>Login</h2>
@@ -49,15 +62,67 @@
     </form>
   </div>
   
+
+  
+  <section class="bg-gray-100 dark:bg-gray-900 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-extrabold text-gray-900 dark:text-white">Why Choose EchoSlate?</h2>
+        <p class="mt-4 text-lg text-gray-600 dark:text-gray-300">
+          A platform designed for developers and analysts to showcase their talents.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <div class="text-center">
+          <div class="flex items-center justify-center h-12 w-12 mx-auto mb-4 bg-blue-500 text-white rounded-full">
+            
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 20 20">
+              
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Showcase Your Work</h3>
+          <p class="mt-2 text-gray-600 dark:text-gray-300">
+            Create a profile to highlight your projects and achievements.
+          </p>
+        </div>
+        
+        <div class="text-center">
+          <div class="flex items-center justify-center h-12 w-12 mx-auto mb-4 bg-green-500 text-white rounded-full">
+            
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 20 20">
+              
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Connect with Peers</h3>
+          <p class="mt-2 text-gray-600 dark:text-gray-300">
+            Engage with a community of professionals in your field.
+          </p>
+        </div>
+        
+        <div class="text-center">
+          <div class="flex items-center justify-center h-12 w-12 mx-auto mb-4 bg-purple-500 text-white rounded-full">
+            
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 20 20">
+              
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Discover Opportunities</h3>
+          <p class="mt-2 text-gray-600 dark:text-gray-300">
+            Find collaborations and projects that match your skills.
+          </p>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <footer>
-    <p>&copy; 2024 EchoSlate. All rights reserved.</p>
+  </main>
+
+  <footer class="bg-gray-900 text-gray-400 py-8">
+    <div class="max-w-7xl mx-auto text-center">
+      <p>&copy; 2024 EchoSlate. All rights reserved.</p>
+    </div>
   </footer>
   
-  
-  <script src="https://cdn.jsdelivr.net/npm/lunr/lunr.min.js"></script>
-<script src="/js/search.js"></script> 
-
 </body>
 </html>

@@ -26,43 +26,43 @@ defaultContentLanguage = "en"
   [[menu.main]]
     identifier = "home"
     name = "Home"
-    url = "/"
+    url = "/en/"
     weight = 1
 
   [[menu.main]]
     identifier = "users"
     name = "Users"
-    url = "/users/"
+    url = "/en/users/"
     weight = 2
 
   [[menu.main]]
     identifier = "edit"
     name = "Edit"
-    url = "/edit/"
+    url = "/en/edit/"
     weight = 3
 
   [[menu.main]]
     identifier = "upload"
     name = "Upload"
-    url = "/upload/"
+    url = "/en/upload/"
     weight = 4
 
   [[menu.main]]
     identifier = "search"
     name = "Search"
-    url = "/search/"
+    url = "/en/search/"
     weight = 5
 
   [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "/about/"
+    url = "/en/about/"
     weight = 6
 
   [[menu.main]]
     identifier = "contact"
     name = "Contact"
-    url = "/contact/"
+    url = "/en/contact/"
     weight = 7
 
 # Markup configuration

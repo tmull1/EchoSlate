@@ -1,13 +1,12 @@
 {{ define "main" }}
-  <section class="search">
-    <h1>Search Profiles and Projects</h1>
-    
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <h1 class="text-3xl font-extrabold text-gray-900 dark:text-white mb-6">Search Profiles and Projects</h1>
     <!-- Search Input -->
-    <input type="text" id="search-input" placeholder="Search...">
-
-    <!-- Search Results -->
-    <div id="search-results"></div>
+    <div class="relative">
+      <input type="text" id="search-input" placeholder="Search..." class="w-full p-3 border rounded shadow">
+      <div id="search-results" class="mt-6">
+        <!-- Search results will be injected here -->
+      </div>
+    </div>
   </section>
-
-  <script>
-
+{{ end }}

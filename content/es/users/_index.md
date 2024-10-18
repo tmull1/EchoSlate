@@ -1,5 +1,10 @@
-+++
-title = 'Users'
-date = 2024-10-18T11:14:40-04:00
-draft = true
-+++
+---
+title: "Usuarios"
+description: "Explora Currículums de Usuarios en EchoSlate"
+---
+
+# Nuestros Usuarios
+
+Explora los currículums de profesionales que muestran sus habilidades y experiencia.
+
+{{< resume-list >}}
