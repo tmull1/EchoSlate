@@ -1,0 +1,9 @@
+{{ define "main" }}
+  <section class="upload">
+    <h1>Upload Your Resume</h1>
+    <form id="upload-form" enctype="multipart/form-data">
+      <input type="file" name="resume" accept=".pdf,.doc,.docx" required>
+      <button type="submit">Upload</button>
+    </form>
+  </section>
+{{ end }}

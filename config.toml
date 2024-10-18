@@ -1,3 +1,95 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "http://example.com/"  # Replace with your actual URL when ready
+languageCode = "en-us"
+title = "EchoSlate"
+theme = ""  # You can add a theme here or leave it empty if you're customizing yourself
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+
+# Taxonomies for organizing content
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# Multilingual support
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    title = "EchoSlate"
+    description = "A digital portfolio website to showcase resumes and projects."
+
+  [languages.es]
+    languageName = "Español"
+    weight = 2
+    title = "EchoSlate"
+    description = "Un sitio web de portafolio digital para mostrar currículums y proyectos."
+
+# Menus
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "users"
+    name = "Users"
+    url = "/users/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "edit"
+    name = "Edit"
+    url = "/edit/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "upload"
+    name = "Upload"
+    url = "/upload/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 5
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 6
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 7
+
+
+# Params for custom project settings
+[params]
+  enableSearch = true  # Enable search functionality using Lunar.js
+  enableMultilingual = true  # Support for multilingual content
+  enableAccessibility = true  # Enable ARIA accessibility features
+
+# Configuration for local storage and other options
+[localStorage]
+  enabled = true
+
+# Hugo options
+[markup]
+  defaultMarkdownHandler = "blackfriday"
+  highlight = true
+
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Google Analytics (Optional)
+# googleAnalytics = "UA-XXXXXXXXX-X"
