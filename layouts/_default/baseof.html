@@ -2,17 +2,17 @@
 <html lang="{{ .Site.Language.Lang }}">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
-  {{ block "head" . }}{{ end }}
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
-<body>
+<body class="bg-gray-100 dark:bg-gray-800 dark:text-white">
   {{ partial "header.html" . }}
-  {{ block "main" . }}
-  {{ end }}
-  {{ partial "footer.html" . }}
-  
-  <script src="https://cdn.jsdelivr.net/npm/lunr/lunr.min.js"></script>
-<script src="/js/search.js"></script> <!-- Custom script for handling search functionality -->
 
+  <main class="py-16">
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  {{ partial "footer.html" . }}
 </body>
 </html>
