@@ -42,21 +42,20 @@
 
   <main class="py-16">
     
-    
-  <article class="cf pa3 pa4-m pa4-l">
-    <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links mid-gray">
+  
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <h1 class="text-3xl font-extrabold text-gray-900 dark:text-white mb-8">Categories</h1>
+    <div class="prose dark:prose-dark mb-8">
       
     </div>
-  </article>
-  <div class="mw8 center">
-    <section class="ph4">
+
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       
-    </section>
-  </div>
+    </div>
+  </section>
 
   </main>
-
-  
 
   <footer class="bg-gray-900 text-gray-400 py-8">
   <div class="max-w-7xl mx-auto text-center">
@@ -64,5 +63,27 @@
   </div>
 </footer>
 
+
+  
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
+    const firebaseConfig = {
+      apiKey: "AIzaSyA9w_PQS8HnG4q4PjW8fQN1isBzftDeZBE",
+      authDomain: "testechoslate.firebaseapp.com",
+      projectId: "testechoslate",
+      storageBucket: "testechoslate.appspot.com",
+      messagingSenderId: "987831629951",
+      appId: "1:987831629951:web:f37aeba48e5fc10b6ce74a"
+    };
+    const app = initializeApp(firebaseConfig);
+    console.log("Firebase initialized");
+  </script>
+
+  
+  <script type="module" src="/js/auth.js"></script>
 </body>
 </html>
+
+
+
+
